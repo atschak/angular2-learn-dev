@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc" : "tsc"
+    "postinstall": "typings install",
+    "tsc" : "tsc",
+    "typings" : "typings"
   },
   "repository": {
     "type": "git",
@@ -15,9 +17,9 @@
     "Angular",
     "2.0",
     "setup",
-    "learn"
+    "learning"
   ],
-  "author": "Alexander Tschakarov",
+  "author": "offensichtbar Alexander Tschakarov",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/atschak/angular2-learn-dev/issues"
