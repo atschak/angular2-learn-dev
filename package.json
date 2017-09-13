@@ -1,0 +1,25 @@
+{
+  "name": "angular2-learn-dev",
+  "version": "1.0.0",
+  "description": "Learning Angular 2.0 with SystemJS setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atschak/angular2-learn-dev.git"
+  },
+  "keywords": [
+    "Angular",
+    "2.0",
+    "setup",
+    "learn"
+  ],
+  "author": "Alexander Tschakarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atschak/angular2-learn-dev/issues"
+  },
+  "homepage": "https://github.com/atschak/angular2-learn-dev#readme"
+}
