@@ -4,10 +4,13 @@
   "description": "Learning Angular 2.0 with SystemJS setup",
   "main": "index.js",
   "scripts": {
+    "start": "tsc | concurrently \"npm run tsc:w\" \"npm run lite\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "typings install",
-    "tsc" : "tsc",
-    "typings" : "typings"
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings" : "typings",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
