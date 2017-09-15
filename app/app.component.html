@@ -1,2 +1,11 @@
-<h1>Hello World</h1>
-<p>Toll</p>
+<div class="uk-container">
+    <nav>Navigation</nav>
+
+    <main>
+        <div class="uk-child-width-1-3@m" uk-grid>
+                <user *ngFor="let user of userList" [userObj]="user"  (choiced)="selected($event)"></user>
+        </div>
+    </main>
+
+    <footer>Footer</footer>
+</div>

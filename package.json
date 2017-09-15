@@ -10,7 +10,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings" : "typings",
-    "lite": "lite-server"
+    "lite": "lite-server -c bs-config.json"
   },
   "repository": {
     "type": "git",
