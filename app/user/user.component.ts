@@ -22,11 +22,9 @@ import {IUserVO} from "./user.data";
                  <button class="uk-button uk-button-secondary" (click)="onClick($event)">Hide Description</button>
             </div>
            <div class="uk-card-footer">
-            <ul class="uk-iconnav">
-                <li><a href="#" uk-icon="icon: plus"></a></li>
-                <li><a href="#" uk-icon="icon: file-edit"></a></li>
-                <li><a href="#" uk-icon="icon: copy"></a></li>
-                <li><a href="#" uk-icon="icon: trash"></a></li>
+            <ul class="uk-iconnav" [ngSwitch]="user.pos">
+                <li *ngSwitchCase="'DEV/CEO'"><a href="#" uk-icon="icon: database"></a></li>
+                <li *ngSwitchCase="'UX/CEO'"><a href="#" uk-icon="icon: file-edit"></a></li>
             </ul>
 
            </div>
